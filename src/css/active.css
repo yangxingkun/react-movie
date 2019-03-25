@@ -1,0 +1,53 @@
+.navs {
+    width: 98vw;
+    margin:0 auto;
+
+}
+.tan{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+}
+.navv{
+    width: 100vw;
+    height:1rem;
+}
+.navs{
+    border-radius: 0.08rem;
+    flex: 1;
+    overflow: hidden;
+    background: #eee;
+}
+.navv a{
+    display: block;
+    margin-top: 0.4rem;
+    width: 49%;
+    float: left;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    border-radius:0.25rem;
+    
+}
+.active{
+    background: #515151;
+    color: white;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.32rem;
+    height: 0.9rem;
+    color: floralwhite;
+    background: dimgray;
+    margin-bottom: 0.06rem;
+}
+.act{
+    display: block;
+    width: 100vw;
+}
+/* 线下 */
+.bot{
+    display: block;
+}

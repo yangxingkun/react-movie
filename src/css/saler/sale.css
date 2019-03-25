@@ -1,0 +1,79 @@
+.ksale {
+    flex: 1;
+    border: 0.01rem solid #ddd;
+    background: #fff;
+}
+
+
+
+.ksale .ksale1 {
+    width: 20vw;
+    background: #ddd;
+    height: 74vh;
+    float: left;
+}
+
+.ksale1 li {
+    width: 20vw;
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    justify-content: center;
+}
+.ksale1 .active{height: 1rem;width: 20vw;background: rgb(189, 145, 145);display: block;border-right:0.2rem solid rgb(46, 235, 172)}
+li span {
+    font-size: 0.24rem;
+}
+.ksale1 li em {
+    font-size: 0.32rem;
+    color: crimson
+}
+
+.ksale1 li .teshu {
+    font-size: 0.2rem;
+}
+
+.ksale2 {
+    width: 79.5vw;
+    background: #fff;
+    height: 74vh;
+    float: right;
+}
+
+
+/* 关于第一部分 布局*/
+.ksale2 h2 {
+    font-size: 0.24rem;
+    height: 0.6rem;
+    width: 90%;
+    border-bottom: 0.01rem solid #ddd;
+    line-height: 0.6rem;
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+h2>em {
+    border: 0.04rem solid #f00;
+}
+
+.ksale2 img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.ksale2 li {
+    height: 1rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+    border-bottom:0.02rem solid #ddd;
+    margin: 0 auto;
+}
+.krenqi{width: 60%;padding-left:0.2rem; }
+
+.krenqi em{text-decoration:line-through;}
+.krenqi h4{width: 10vh;min-height: 0.3rem;text-align: center;line-height: 0.3rem;border:0.02rem solid #f00;font-weight: 100;font-size:0.16rem; }

@@ -1,0 +1,39 @@
+.zhu{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.sec{
+  flex:1;
+  overflow: auto;
+}
+.foot .active{
+  color:rgb(250, 240, 240);
+  
+}
+.foot{
+  background: #2b2828;
+  display: flex;
+  justify-content: space-around;
+  height:1rem;
+}
+
+.foot a{
+    display: block;
+    width: 20vw;
+    height: 1rem;
+    
+}
+.foot dl{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+height: 1rem;
+align-items: center;
+}
+
+dl .iconfont{
+  font-size:0.38rem;
+  color: #d62929;
+}
+

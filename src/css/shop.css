@@ -1,0 +1,23 @@
+.kshop{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    background:#eee;
+}
+
+.kshop header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.32rem;
+    height: 0.9rem;
+    color: floralwhite;
+    background: dimgray;
+    position: relative;
+}
+header h5{position: absolute;top:0.3rem;right: 0.1rem;font-size: 0.28rem;}
+
+.kshopnav{width:100%;height: 0.9rem;background:#fff;display: flex;border-bottom: 0.02rem solid #ddd;line-height: 0.9rem;margin-bottom: 0.6rem;}
+.kshopnav a{display:block;height: 0.8rem;width: 50%;text-align: center;line-height: 0.9rem; }
+.kshopnav .active{border-bottom: 0.1rem solid #f00;}

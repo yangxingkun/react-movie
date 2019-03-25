@@ -1,0 +1,20 @@
+.ksocial{display: flex;height: 100vh;flex-direction: column;}
+
+
+.khead1{display: flex;justify-content: center;align-items: center;height: 0.9rem;background: #000;}
+.khead1 span{color:#fff;font-size: 0.32rem;}
+.ksoc{flex: 1;overflow: auto;}
+.ksoc1{padding-left:0.1rem;}
+.ksoc2{margin-top: 0.2rem;}
+
+
+.row img{display: block;height:100px;width: 100px;}
+.row{padding:7px 7px ;background: #ccc;margin-top: 5px;}
+.row img:hover{box-shadow: 2px 2px 2px 2px #f00}
+
+
+/* 深度社区详情 */
+.kdetailgoods{height:0.9rem;background: #000;color: #fff;display: flex;justify-content: center;align-items: center}
+
+
+

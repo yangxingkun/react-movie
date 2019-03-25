@@ -1,0 +1,36 @@
+.bac{
+    width: 90vw;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0.05rem 0.05rem 0.05rem #5e5e5e;
+}
+.bac .mid p:first-child {
+    margin-top: 0;
+}
+.bac img{
+    width: 20vw;
+    height: 7vh;
+}
+.vip{
+    display: flex;
+    margin: 0.1rem 0;
+}
+.left{
+    margin: 0.05rem;
+}
+.mid{
+    width: 55vw;
+    font-size: 0.12rem;
+}
+.mid p:last-child{
+    margin-left: 30vw;
+    color: #f8a814;
+}
+
+.rig{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+color: red;
+margin-left:0.04rem ;
+}

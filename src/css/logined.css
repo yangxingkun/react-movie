@@ -1,0 +1,106 @@
+/* .bod{
+    
+
+} */
+.bod{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+}
+.knav2  .ling{
+    color:#1f1313;
+    font-size: 0.5rem;
+}
+.bod header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.32rem;
+    height: 0.9rem;
+    color: floralwhite;
+    background: dimgray;
+}
+
+section {
+    flex: 1;
+    overflow: auto;
+    background: #eee;
+}
+
+.knav em,.knav1 em,.knav2 em,.knav3 em,.knav4 em,.knav5 em{font-size: 0.32rem;}
+.knav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 3.4rem;
+    width: 96%;
+    background: rgb(157, 149, 201);
+    border: 0.02rem solid rgb(214, 142, 48);
+    margin: 0 auto;
+}
+
+.knav1 img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.knav1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.knav1 span {
+    font-size: 0.32rem;
+}
+
+.knav2 {
+    width: 96%;
+    background: gold;
+    border: 0.02rem solid #ddd;
+    margin: 0 auto;
+    height: 1.5rem;
+    background: rgb(223, 233, 179);
+    margin-top: 0.2rem;
+}
+
+.knav2>ul {
+    height: 1.5rem;
+}
+
+.knav2 li {
+    width: 24.85%;
+    float: left;
+    border-right: 0.01rem solid #ddd;
+    margin-top:0.15rem; 
+    height: 1.27rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.knav2 .kteshu{border: none;}
+
+.knav3{width: 96%;height: 1rem;background: #fff;border-right: 0.01rem solid #ddd;margin: 0 auto; margin-top: 0.2rem;display: flex;align-items: center;position: relative;}
+
+.knav3 em{padding:0 0.2rem;}
+.knav3 i{position: absolute;right: 0.2rem;top:center; }
+
+
+.knav4{width: 96%;height: 3.06rem;margin:0 auto  ;background: #fff;border: 0.01rem solid #ddd; margin-top: 0.2rem;}
+.knav4 li{ height: 1rem;background: #fff;margin: 0 auto;display: flex;align-items: center;position: relative;border-bottom: 0.02rem solid #ddd}
+.knav4 li>em{padding:0 0.2rem;}
+.knav4 li>i{position: absolute;right: 0.2rem;top:center; }
+
+.knav5{width: 96%;height:2.02rem;margin:0 auto  ;background: #fff;border: 0.01rem solid #ddd; margin-top: 0.2rem;}
+.knav5 li{ height: 1rem;background: #fff;margin: 0 auto;display: flex;align-items: center;position: relative;border-bottom: 0.02rem solid #ddd}
+.knav5 li>em{padding:0 0.2rem;}
+.knav5 li>i{position: absolute;right: 0.2rem;top:center; }
+
+
+
+
